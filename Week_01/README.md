@@ -4,10 +4,9 @@
 2. 掌握数组、链表、跳表、Stack、Queue、Deque的原理和实现
 3. PriorityQueue的特点和空间复杂度
 4. 解题思路：升维思想 + 空间换时间
-
 ---
 ## 分析Queue 和 PriorityQueue源代码
-Queue是接口，定义了队列API，
+Queue是接口，定义了如下的队列API。
 boolean add(E e);插入元素到队列，插入成功返回true，否则抛异常
 boolean offer(E e); 插入元素到队列，插入成功返回true，否则返回false
 E remove(); 返回并删除队列头，如果队列为空抛异常
